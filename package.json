@@ -1,0 +1,17 @@
+{
+  "name": "electronjsdemo",
+  "version": "1.0.0",
+  "description": "Demo package for electronjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "chiragkishorejain",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
