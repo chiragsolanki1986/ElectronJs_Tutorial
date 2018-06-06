@@ -2,7 +2,7 @@
   "name": "electronjsdemo",
   "version": "1.0.0",
   "description": "Demo package for electronjs",
-  "main": "main.js",
+  "main": "main1.js",
   "scripts": {
     "start": "electron ."
   },
@@ -12,6 +12,8 @@
     "electron": "^2.0.2"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
   }
 }

@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="UTF-8">
-      <title>Account Revenue Projections</title>
-    </head>
-    <body>        
-      <h1>Hello World!</h1>
-      We are using node <script>document.write(process.versions.node)</script>,
-      Chrome <script>document.write(process.versions.chrome)</script>,
-      and Electron <script>document.write(process.versions.electron)</script>.
-    </body>
-
-    <div class="audio">
-            <audio id="A" src="sounds/A.mp3" preload="auto"/>
-        </div>
-
-<script>
-    require("./audio.js")
-</script>
-
-  </html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <title>Hello World!</title>
+      <link rel = "stylesheet" 
+         href = "./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+   </head>
+   
+   <body>
+      <div class = "container">
+         <h1>This page is using Bootstrap and jQuery!</h1>
+         <h3 id = "click-counter"></h3>
+         <button class = "btn btn-success" id = "countbtn">Click here</button>
+         <script src = "./indexview.js" ></script>
+      </div>
+   </body>
+</html>
