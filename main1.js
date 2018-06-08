@@ -11,7 +11,7 @@ let win
 function createWindow() {
     win = new BrowserWindow({width:900, height: 700});
     win.loadURL(url.format({
-        pathname: path.join(__dirname,'index.html'),
+        pathname: path.join(__dirname,'emailinput.html'),
         protocol: 'file:',
         slashes: true
     }))
